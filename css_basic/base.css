@@ -26,9 +26,9 @@ ul li {
 main {
     padding: 20px;
 }
-
 footer {
-    background-color: #f4f4f4;
-    padding: 10px;
     text-align: center;
-}
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+  }
