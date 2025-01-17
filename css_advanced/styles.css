@@ -41,7 +41,7 @@ a {
 }
   
 .hero {
-  background-image: url("./girl_background.png");
+  background-image: url("./img/girl_background.png");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
