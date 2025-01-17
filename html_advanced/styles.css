@@ -1,191 +1,69 @@
-/* Base Styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #333;
-  }
-  
-  /* Header Styles */
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem 0;
-  }
-  
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .header a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 1rem;
-  }
-  
-  /* Main Styles */
-  main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem;
-  }
-  
-  .school {
-    text-align: center;
-    padding: 3rem 0;
-  }
-  
-  .school h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-  }
-  
-  .school button {
-    background-color: #c271ff;
-    color: #fff;
-    border: none;
-    padding: 1rem 2rem;
-    font-size: 1rem;
-    cursor: pointer;
-  }
-  
-  .learn-from-pros {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 2rem;
-    margin-bottom: 3rem;
-  }
-  
-  .learn-from-pros img {
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
-  }
-  
-  .learn-from-pros h3 {
-    margin-top: 1rem;
-  }
-  
-  .learn-from-pros p {
-    color: #c271ff;
-    margin-top: 0.5rem;
-  }
-  
-  .quote-section {
-    display: flex;
-    align-items: center;
-    background-color: #c271ff;
-    color: #fff;
-    padding: 3rem;
-    margin-bottom: 3rem;
-  }
-  
-  .quote-section img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin-right: 2rem;
-  }
-  
-  .quote-section blockquote {
-    font-size: 1.5rem;
-    font-style: italic;
-    margin: 0;
-  }
-  
-  .quote-section p {
-    margin-top: 1rem;
-    font-weight: bold;
-  }
-  
-  .popular-tutorials {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 2rem;
-    margin-bottom: 3rem;
-  }
-  
-  .popular-tutorials img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .popular-tutorials h2 {
-    margin-top: 1rem;
-  }
-  
-  .popular-tutorials .tutorial-info {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 0.5rem;
-  }
-  
-  .popular-tutorials .tutorial-info img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin-right: 0.5rem;
-  }
-  
-  .popular-tutorials .tutorial-info p {
-    color: #c271ff;
-    margin: 0;
-  }
-  
-  /* Membership Styles */
-  .membership {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 2rem;
-    margin-bottom: 3rem;
-  }
-  
-  .membership img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .membership h2 {
-    margin-top: 1rem;
-  }
-  
-  /* FAQ Styles */
-  .faq {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
-    margin-bottom: 3rem;
-  }
-  
-  .faq h2 {
-    margin-top: 0;
-  }
-  
-  /* Footer Styles */
-  footer {
-    background-color: #071629;
-    color: #fff;
-    padding: 2rem 0;
-    text-align: center;
-  }
-  
-  footer img {
-    width: 150px;
-    height: auto;
-    margin-bottom: 1rem;
-  }
-  
-  footer a {
-    display: inline-block;
-    margin: 0 0.5rem;
-  }
-  
-  footer p {
-    margin-top: 1rem;
-  }
-  
+    
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header .logo {
+            font-weight: bold;
+        }
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        main {
+            padding: 20px;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .content-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 20px;
+        }
+        .content-item {
+            text-align: center;
+        }
+        .content-item img {
+            width: 100%;
+            height: auto;
+        }
+        .content-item h3 {
+            margin-top: 10px;
+        }
+        .content-item p {
+            margin-top: 5px;
+        }
+        .quote-section {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+        .quote-section blockquote {
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+        .quote-section p {
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
