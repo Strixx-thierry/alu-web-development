@@ -11,3 +11,7 @@
 
 ## Figma Access
 Access the design (https://www.figma.com/design/dyYL6Ku4WG7vsdpwvlcJZC/Homepage?node-id=0-1&p=f).
+
+
+## final product deployed
+(https://strixx-thierry.github.io/alu-web-development//css_advanced/)
