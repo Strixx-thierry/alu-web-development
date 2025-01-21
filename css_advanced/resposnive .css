@@ -1,0 +1,62 @@
+ @media screen and (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    text-align: center;
+  }
+  .links {
+    display: none;
+  }
+  .nav .links.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: #071629;
+    padding: 20px 0;
+  }
+
+  footer {
+    padding: 40px;
+  }
+
+  .hero {
+    min-height: 100vh;
+  }
+
+  .hero h1 {
+    font-size: calc(4vw + 40px);
+    max-width: 800px;
+  }
+
+  .heroPeople {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .quote {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .videos_section {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .videos_section div {
+    width: calc(50% - 10px);
+    max-width: 300px;
+  }
+
+  .membership_section {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+} 
